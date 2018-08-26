@@ -66,7 +66,7 @@ namespace ConsoleApp1
         public static void Main(string[] args)
         {
             String book=Book.DownloadBook("http://www.gutenberg.org/files/2701/2701-0.txt"); // the book is assigned to String book variable.
-            Book.countWords(book, "MobyDick"); // it is instructed to be saved into the book.xml.
+            Book.countWords(book, "MobyDick"); // it is instructed to be saved into the MobyDick.xml.
         
 
         }
